@@ -6,12 +6,22 @@ from ecommercetools import seo
 
 
 class EvaluationInterface:
+    """
+    Class for data annotater streamlit app.
+    """
+
     def __init__(self):
         pass
 
     @staticmethod
-    # @st.cache(allow_output_mutation=True)
     def search_input():
+        """
+        Method for getting the initial form input in the sidebar nav.
+        :return: @name - Name of the user
+                @query - Query entered
+                @num_ret - Number of docs to be retrieved
+                @search_button - Search button status (Pressed or not)
+        """
         with st.form(key='input_form'):
             name = st.sidebar.text_input('Enter Name of the critique: ')
             query = st.sidebar.text_input('Enter Query: ')
@@ -24,25 +34,33 @@ class EvaluationInterface:
     @staticmethod
     @st.cache(show_spinner=False)
     def search(name, query, num_ret):
+        """
+        Method for performing the search and retrieval, from the Google api.
+        Saves the retrieved results in a temporary csv file.
+        This is a cached method, meaning it will not be rerun every time, until the search button is pressed.
+        """
         info = seo.get_serps(query, pages=5)
         selected = info.sample(n=num_ret)
         selected['Author'] = name
         selected['Query'] = query
         st.session_state.count = 0
-        # st.session_state.result_list = list()
         st.session_state.save_result = pd.DataFrame()
         selected.to_csv('temp_search_results.csv')
 
     @staticmethod
     def retrieve():
+        """
+        Method for reading the saved temporary saved results.
+        """
         return pd.read_csv('temp_search_results.csv', index_col=0)
-
-        #     return name, query, selected
-        # else:
-        #     return None, None, None
 
     @staticmethod
     def page(selected):
+        """
+        Method for page navigation.
+        :input: The whole retrieved dataframe
+        :return:The selected entry (row) from the dataframe based on page number
+        """
         last_page = len(selected) - 1
 
         if 'count' not in st.session_state:
@@ -50,8 +68,6 @@ class EvaluationInterface:
 
         prev, pg, next = st.columns([1, 2, 1])
 
-        # with st.form(key='page_form'):
-        # print("Page: ", st.session_state.count)
         if next.button("Next"):
 
             if st.session_state.count + 1 > last_page:
@@ -65,88 +81,39 @@ class EvaluationInterface:
                 st.session_state.count = last_page
             else:
                 st.session_state.count -= 1
-            # st.form_submit_button()
 
         st.title("Page: " + str(st.session_state.count + 1))
 
         return selected.iloc[st.session_state.count, :]
 
-    # @staticmethod
-    # def annotate(name, query, selected):
-    #     result_list = list()
-    #
-    #     if selected is not None:
-    #         for idx, row in selected.iterrows():
-    #             result_row = list()
-    #             st.text("Search Engine Rank: " + str(row['position']))
-    #             st.text("Document Title: " + row['title'])
-    #             st.text("Document Link: " + row['link'])
-    #             st.text("Document Summary: " + row['text'])
-    #             st.text("Document Tag: " + row['bold'])
-    #
-    #             type = st.radio(
-    #                 "Select the type of article: ",
-    #                 ('Positive', 'Negative'), key=idx)
-    #
-    #             result_row.append(type)
-    #
-    #             # col1, col2 = st.columns([1, 1])
-    #             #
-    #             # with col1:
-    #             #     pos = st.button('Positive')
-    #             #     result_row.append('Positive')
-    #             # with col2:
-    #             #     neg = st.button('Negative')
-    #             #     result_row.append('Negative')
-    #
-    #             comment = st.text_input('Enter Comments: ', key=idx * 3)
-    #             result_row.append(comment)
-    #             score = st.number_input("Enter relevance score (0-Irrelevant, 1-Moderately Relevant, 2-Relevant): ",
-    #                                     0, 2, 2, 1, key=idx * 5)
-    #             result_row.append(score)
-    #
-    #             # if st.button('Next'):
-    #             result_list.append(result_row)
-    #             # continue
-    #
-    #         selected['Author'] = name
-    #         selected['Query'] = query
-    #
-    #         selected = pd.concat(
-    #             [selected, pd.DataFrame(result_list, columns=['Context Class', 'Comments', 'Score'])],
-    #             axis=1, ignore_index=True)
-    #
-    #         if os.path.isfile("results.csv"):
-    #             results = pd.read_csv("results.csv", index_col=0)
-    #             results = pd.concat([results, selected], axis=0, ignore_index=True)
-    #             results.to_csv('results.csv')
-    #         else:
-    #             selected.to_csv('results.csv')
-    #     else:
-    #         st.text("No Results Found")
-
     @staticmethod
     def annotate(selected):
+        """
+        Method for controlling the interface and responses.
+        Form based design to handle inputs from the user.
+        """
 
         if selected is not None:
 
             idx = selected.index
 
             result_row = list()
+
+            # Display the retrieved page and it's properties
             st.text("Search Engine Rank: " + str(selected['position']))
             st.text("Document Title: " + selected['title'])
             link = 'Document Link: [{link}]({link})'.format(link=selected['link'])
             st.write(link, unsafe_allow_html=True)
-            # st.text("Document Link: " + selected['link'])
             st.text("Document Summary: " + selected['text'])
             st.text("Document Tag: " + selected['bold'])
 
+            # Form to handle annotations from the user
             with st.form(key='entry_form'):
-                type = st.radio(
+                article_type = st.radio(
                     "Select the type of article: ",
                     ('Positive', 'Negative'), key=idx)
 
-                result_row.append(type)
+                result_row.append(article_type)
 
                 comment = st.text_input('Enter Comments: ', key=idx * 3)
                 result_row.append(comment)
@@ -156,17 +123,20 @@ class EvaluationInterface:
 
                 sub_ent = st.form_submit_button('Submit Entry')
 
+                # Button to add the inputs from user to the queue that saves to file
                 if sub_ent:
                     temp = selected.to_frame().T.reset_index(drop=True)
                     temp_res = pd.DataFrame([result_row], columns=['Context Class', 'Comments', 'Score'])
-                    temp_df = pd.merge(temp,
-                                       temp_res,
-                                       left_index=True,
-                                       right_index=True
-                                       )
+                    temp_df = pd.merge(
+                        temp,
+                        temp_res,
+                        left_index=True,
+                        right_index=True
+                    )
                     st.session_state.save_result = pd.concat([st.session_state.save_result, temp_df], axis=0,
                                                              ignore_index=True)
 
+            # Button to save all the annotations to a csv file
             if st.button('Save Annotations'):
                 if os.path.isfile("results.csv"):
                     results = pd.read_csv("results.csv", index_col=0)
@@ -180,15 +150,14 @@ class EvaluationInterface:
 
 if __name__ == '__main__':
     ui = EvaluationInterface()
-    name, query, num_ret, ser_but = ui.search_input()
-    # print("Query####", query)
-    if ser_but:
-        # print("Searching...")
-        with st.spinner(text="Searching..."):
-            ui.search(name, query, num_ret)
+    au_name, inp_query, num_docs, ser_but = ui.search_input()
 
-    selected = ui.retrieve()
-    # print(selected)
-    if selected is not None:
-        row = ui.page(selected)
+    if ser_but:
+        with st.spinner(text="Searching..."):
+            ui.search(au_name, inp_query, num_docs)
+
+    retrieved_docs = ui.retrieve()
+
+    if retrieved_docs is not None:
+        row = ui.page(retrieved_docs)
         ui.annotate(row)
