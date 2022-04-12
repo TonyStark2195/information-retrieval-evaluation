@@ -52,7 +52,8 @@ class EvaluationInterface:
         """
         Method for reading the saved temporary saved results.
         """
-        return pd.read_csv('temp_search_results.csv', index_col=0)
+        if os.path.isfile('temp_search_results.csv'):
+            return pd.read_csv('temp_search_results.csv', index_col=0)
 
     @staticmethod
     def page(selected):
