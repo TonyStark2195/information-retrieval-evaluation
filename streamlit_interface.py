@@ -25,7 +25,7 @@ class EvaluationInterface:
         with st.form(key='input_form'):
             name = st.sidebar.text_input('Enter Name of the critique: ')
             query = st.sidebar.text_input('Enter Query: ')
-            num_ret = st.sidebar.number_input("Enter number of retrieved docs to analyze: ", 0, 25, 5, 1, key=100)
+            num_ret = st.sidebar.number_input("Enter number of retrieved docs to analyze: ", 0, 50, 5, 1, key=100)
 
             search_button = st.sidebar.button("Search")
 
@@ -40,7 +40,8 @@ class EvaluationInterface:
         This is a cached method, meaning it will not be rerun every time, until the search button is pressed.
         """
         info = seo.get_serps(query, pages=5)
-        selected = info.sample(n=num_ret)
+        # selected = info.sample(n=num_ret)
+        selected = info.copy()
         selected['Author'] = name
         selected['Query'] = query
         st.session_state.count = 0
@@ -105,8 +106,8 @@ class EvaluationInterface:
             st.text("Document Title: " + selected['title'])
             link = 'Document Link: [{link}]({link})'.format(link=selected['link'])
             st.write(link, unsafe_allow_html=True)
-            st.text("Document Summary: " + selected['text'])
-            st.text("Document Tag: " + selected['bold'])
+            st.text("Document Summary: " + str(selected['text']))
+            st.text("Document Tag: " + str(selected['bold']))
 
             # Form to handle annotations from the user
             with st.form(key='entry_form'):
@@ -118,8 +119,11 @@ class EvaluationInterface:
 
                 comment = st.text_input('Enter Comments: ', key=idx * 3)
                 result_row.append(comment)
-                score = st.number_input("Enter relevance score (0-Irrelevant, 1-Moderately Relevant, 2-Relevant): ",
-                                        0, 2, 1, 1, key=idx * 5)
+                # score = st.number_input("Enter relevance score (0-Irrelevant, 1-Moderately Relevant, 2-Relevant): ",
+                #                         0, 2, 1, 1, key=idx * 5)
+
+                score = st.number_input("Enter relevance score (0-Irrelevant, 1-Relevant): ",
+                                        0, 1, 1, 1, key=idx * 5)
                 result_row.append(score)
 
                 sub_ent = st.form_submit_button('Submit Entry')
@@ -127,7 +131,7 @@ class EvaluationInterface:
                 # Button to add the inputs from user to the queue that saves to file
                 if sub_ent:
                     temp = selected.to_frame().T.reset_index(drop=True)
-                    temp_res = pd.DataFrame([result_row], columns=['Context Class', 'Comments', 'Score'])
+                    temp_res = pd.DataFrame([result_row], columns=['Context Class', 'Comments', 'Relevance Score'])
                     temp_df = pd.merge(
                         temp,
                         temp_res,
