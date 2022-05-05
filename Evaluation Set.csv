@@ -1,0 +1,303 @@
+S.No,Query,User,Input Sentiment,User Information Need,User Evaluation Criteria,link,Context Class,Relevance Score,Comments
+1,Insurance fraud in healthcare,User 1,Negative,"User wants to know the reports of fraudulent cases in healthcare insurance, to avoid falling into the trap of similar fraud techniques.","Relevant: Documents describing reports of historical cases of fraudulent activities in the healthcare insurance industry; mentioning the numbers involved in such fraud; blogs on how to escape from such frauds.
+
+Irrelevant: Documents discussing frauds in insurance of other domains like car, house, etc.",https://www.forbes.com/advisor/health-insurance/best-health-insurance-companies/,Positive,0,"contains list of trusted healthcare companies, their ratings and customer feedback"
+,,,,,,https://www.fbi.gov/scams-and-safety/common-scams-and-crimes/health-care-fraud,Negative,1,document talks about scams in the healthcare insurance industry
+,,,,,,https://www.valuepenguin.com/best-health-insurance-companies,Positive,0,contains list of trusted healthcare companies in the current year
+,,,,,,https://www.investopedia.com/best-health-insurance-companies-4775920,Positive,0,contains list of trusted healthcare companies in the current year and best plans are mentioned as comparison
+,,,,,,https://www.thebalance.com/best-health-insurance-companies-4174511,Positive,0,contains list of trusted healthcare companies in the current year
+,,,,,,https://www.fbi.gov/scams-and-safety/common-scams-and-crimes,Negative,0,fbi report on variety of fraud cases that are not healthcare
+,,,,,,https://www.moneygeek.com/insurance/health/resources/protecting-against-fraud/,Positive,1,"document talks about avoiding insurance frauds, tips and guidance"
+,,,,,,https://www.helpstopfraud.org/Types-of-Insurance-Fraud/Health,Positive,1,"document talks about avoiding insurance frauds, helpline and recovery"
+,,,,,,https://www.atlanta-criminal-law.com/blog/2020/october/the-3-main-types-of-fraud/,Negative,0,document talks about common scams and fraudulent activities
+,,,,,,https://www.rocklandtrust.com/learning-center/business-resources/8-ways-to-protect-yourself-from-fraud,Positive,0,documents provides safety measures against scams and frauds but it is not related to healthcare insurance
+2,Is Obama care good?,User 1,Positive,User wants to know the benefits of Obama care and check if it is affordable compared to other care plans.,"Relevant: Documents talking about the pros of Obama care, mainly focusing on it's affordability.
+
+Irrelevant: Documents containing when Obama care will be passed, steps to sign up, etc.",https://www.ehealthinsurance.com/resources/affordable-care-act/aca-obamacare-subsidies,Positive,0,The document mentions about tax subsidies and the eligibility to sign in for the insurance plan
+,,,,,,https://blog.healthsherpa.com/how-much-obamacare-cost/,Positive,1,The document mentions the cost of obama care.
+,,,,,,https://healthcareinsider.com/massachusetts-health-insurance-37015,Positive,0,The content of this document is about general health insurance plans in massachusetts
+,,,,,,https://truthout.org/articles/obamacare-the-biggest-insurance-scam-in-history/,Negative,0,The document talks about obama care being the biggest insurance scam which is irrelevant to the user.
+,,,,,,https://www.healthline.com/health/consumer-healthcare-guide/pros-and-cons-obamacare,Positive,1,Contains detailed pros of obamacare
+,,,,,,https://www.healthline.com/health-news/do-doctors-loathe-obamacare-041415,Negative,0,The document talks only about how all healthcare professionals hate obama care.
+,,,,,,https://obamawhitehouse.archives.gov/blog/2014/02/06/six-economic-benefits-affordable-care-act ,Positive,1,contains discussion on how obama care is affordable for the user and how the user is benefitted by using obamacare
+,,,,,,https://www.buffalo.edu/news/releases/2013/10/002.html,Negative,1,The document says that obama care will be of least benefit for the poor people.
+,,,,,,https://www.verywellhealth.com/whats-the-difference-between-medicaid-obamacare-1738843,Positive,0,Mentions difference between medicaid and obamacare which is irrelevant for the user.
+3,Bypass surgery in America,User 1,Positive,User wants to know the list of hospitals that specializes in Bypass surgery.,"Relevant: Documents mentioning the list of hospials, contact details of the Bypass surgery departments.
+
+Irrelevant: Documents containing best bypass surgery surgeons, discussing pros and cons of bypass surgery, survival rates, etc.",https://www.upmc.com/services/heart-vascular/services/heart-surgery?utm_mrid=mrid0696&utm_source=GOOGLE&utm_medium=cpc&utm_campaign=71700000037477414&utm_adgroup=58700004162342949&utm_term=heart+surgery+hospital&utm_advertiserid=700000001754539&gclid=Cj0KCQjwpcOTBhCZARIsAEAYLuXHSPiKEfQXSLhveeAJV6eSxOQF_oTcLmn5xUqb4C_ktNyT1S81Mz4aAplGEALw_wcB&gclsrc=aw.ds,Positive,1,Contains information regarding the procedure and information regarding the bypass process in the organization.
+,,,,,,https://www.sentara.com/medicalservices/services/heart-and-vascular.aspx?utm_source=eruptr&utm_medium=cpc&cr=woodbridge_heart&utm_campaign=woodbridge_heart&gclid=Cj0KCQjwpcOTBhCZARIsAEAYLuVLh5j9g8lt5iPdlsd2s-CFpiqma_2TlPLStNL7tenpY7OIWfDKKsgaAg59EALw_wcB,Positive,1,Contains information regarding the operation and the procedure to book an appointment for the bypass surgery.
+,,,,,,https://www.speedysearchresults.com/web?q=cost%20for%20bypass%20surgery&kwid=cost%20for%20bypass%20surgery&cid=557159152275&site=&gclid=Cj0KCQjwpcOTBhCZARIsAEAYLuVTzL3XmlACpYw3puqr-TREv7CN4HQZ5Yiubf5dUE-A3bPW1yNvYy4aAglpEALw_wcB&qsrc=999&qo=semQuery&ad=semD&o=1517257&l=sem&askid=0731200e-ca38-47d8-bd9f-7422fa354bc7-0-se_gsb&dqi=&ag=fw81&am=broad&an=google_s,Positive,0,This document contains information regarding the cost for the surgery.
+,,,,,,https://www.webmd.com/heart-disease/heart-disease-bypass-surgery,Positive,0,Contains information regarding the purpose and how the bypass surgery is done.
+,,,,,,https://www.beckershospitalreview.com/cardiology/10-best-hospitals-for-cardiology-ranked-by-us-news.html,Positive,1,Link provides in information regarding top 10 best cardiology based hospitals in US.
+,,,,,,https://www.cedars-sinai.org/programs/heart/clinical/cardiac-surgery.html?s_kwid=&gclid=Cj0KCQjwpcOTBhCZARIsAEAYLuWdwLASk3ALD4ULL4_9n4ei7xLgkhNRXCzMnViiaWbRRPJ5KccEqOAaAiJfEALw_wcB&gclsrc=aw.ds,Positive,0,Rel (Positive)-Provides information regarding the surgery and the procedure for it.
+,,,,,,https://www.loyolamedicine.org/find-a-condition-or-service/heart-and-vascular/heart-vascular-treatments/coronary-artery-bypass-graft-surgery,Positive,0,Provides information regarding the surgery and the procedure for it.
+,,,,,,https://www.newsweek.com/worlds-best-specialized-hospitals-2021,Positive,0,Contains information regarding the best hospitals in the world that are specialised in Cardio Vascular surgery.
+,,,,,,https://www.sentara.com/healthwellness/data/patient-stories/roger-newill-heart-bypass-cardiac-rehab-hampton-roads.aspx,Positive,0,Contains an article regarding the experience of a patient after Bypass surgery.
+,,,,,,https://www.upmc.com/services/heart-vascular/upmc-difference/patient-stories/jim-julian,Positive,0,Contains information regarding an patient’s story on Bypass Surgery.
+4,Review of Good Doctors,User 1,Positive,User wants to know the reviews on the 'Good Doctors' television series.,"Relevant: Documents containing blog posts or rating comments mentioning the 'Good Doctors' TV series.
+
+Irrelevant: Documents mentioning best doctors in respective area/fields.",https://www.rottentomatoes.com/tv/the_good_doctor/s01,Positive,1,Provides the user/critics review of the good doctor series.
+,,,,,,https://www.imdb.com/title/tt6470478/,Positive,1,Provides the critics review as mentioned in the Relevance criteria.
+,,,,,,https://www.commonsensemedia.org/tv-reviews/the-good-doctor,Positive,1,Provides the media and community review for the TV show.
+,,,,,,https://eatsleepwander.com/positive-doctor-review-examples/,Positive,0,Includes the information regarding examples on how to review the doctors.
+,,,,,,https://www.healthgrades.com/,Positive,0,Website which provides healthcare services.
+,,,,,,https://medium.com/@MsJayTeeRattray/there-are-no-good-doctors-on-the-good-doctor-377fc4f85e9e,Positive,1,Website which provides review for season 1
+,,,,,,https://www.vitals.com/,Positive,0,Website which provides review for every doctors that we search
+,,,,,,https://health.usnews.com/health-care/patient-advice/slideshows/signs-of-good-doctors,Positive,0,"Website which provides information regarding the deciding factors on whether a doctor is good or not."
+,,,,,,https://alothome.com/landing?slk=physician+reputation+management&nid=1&accid=4844537548&campid=15793613180&agid=130562010174&cid=573194973260&akwd=patient%20ratings%20for%20doctors&mt=b&network=g&dist=s&adposition=&device=c&ismobile=false&devicemodel=&placement=&target=&aceid=&random=10797036410222058433&vx=0&gclid=CjwKCAjwgr6TBhAGEiwA3aVuId5q1f8aQPwC8o44bJy-RlzO0kwnHN6gYWYeyFOb2F1pFcVjJmEaDRoCy4IQAvD_BwE,Positive,0,Website that provides information regarding the customer reviews on doctors.
+,,,,,,https://mydoctorsf.com/testimonials/,Positive,0,Website that enlists information regarding the testimonials about doctors.
+5,vaccines causing autism spectrum disorder,User 1,Negative,User wants to know if vaccines can cause autism or ASD.,"Relevant: Documents discussing side effects of vaccines that lead to ASD or autism.
+
+Irrelevant: Documents explaining what ASD is, general vaccine side effects.",https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/autism-vaccine-link-debunked,Negative,1,Debunks that vaccination causing autism is a myth.
+,,,,,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2908388/,Negative,1,"Provides information regarding three hypothesis on what vaccines causes autism.
+"
+,,,,,,https://s.healthnwell.com/serp?q=which%20shots%20cause%20autism&segment=healthnwell.g003&s1aid=6493012831&s1cid=9754812129&s1agid=99285753266&s1kid=kwd-302998631895&utm_source=adwords&gclid=Cj0KCQjwpcOTBhCZARIsAEAYLuVgtyoPJ9xRHG9JZJgvYyQJRZ_PP3QNzH2vamYvr9-v0LBnS_V0f-0aApGiEALw_wcB,Negative,1,Provides information regarding what vaccines causes autism.
+,,,,,,https://www.myautism.org/what-is-autism?gclid=Cj0KCQjwpcOTBhCZARIsAEAYLuV7Oxww09YMYoD3lddHpf17ASC8VPchmNlC_LHKP-BMdRDcQHlbsH8aAkPWEALw_wcB,Negative,0,Provides information regarding what activities causes autism.
+,,,,,,https://blog.ochsner.org/articles/do-vaccines-cause-autism-spectrum-disorder,Negative,1,Contains an article regarding a debate on whether vaccination causes Autism Disorder.
+,,,,,,https://www.cdc.gov/vaccinesafety/concerns/autism.html,Positive,1,Provides information regarding test cases on what vaccines does not cause autism.
+,,,,,,https://www.autismcenter.org/discussing-vaccines-and-autism,Positive,1,Provides information regarding a discussion on whether the autism and vaccination is related.
+,,,,,,https://www.autismspeaks.org/what-causes-autism,Negative,0,Enlists reasons that causes autism and elaborates on those.
+,,,,,,https://kidshealth.org/en/parents/autism-studies.html,Positive,1,Provides a discussion on whether there is a connection between Vaccines and Autism.
+,,,,,,https://www.autismspeaks.org/science-news/autism-genetic-study-finds-80-risk-inherited-genes,Positive,0,Provides information regarding the factor that governs whether autism is genetic.
+6,Curable cancer,User 1,Positive,User wants to know the list of curable cancers.,"Relevant: Documents containing the list of cancers that can be cured; showing stats of cured population.
+
+Irrelevant: Documents explaining the treatments to cancers, types of cancers, nearby cancer special hospitals, etc.",https://www.webmd.com/cancer/5-curable-cancers,Positive,1,The document contains types of cancer that can be cured.
+,,,,,,https://www.cancer.gov/about-cancer/understanding/statistics,Positive,1,The document contains statistics of cancer that can be cured
+,,,,,,https://www.healthline.com/health/is-there-a-cure-for-cancer,Positive,0,Document’s content argues whether cancer be cured or not
+,,,,,,https://www.unitypoint.org/desmoines/services-cancer-article.aspx?id=c9f17977-9947-4b66-9c0f-15076e987a5d,Negative,0,Contains information about most riskiest cancer
+,,,,,,https://health.usnews.com/best-hospitals/rankings/cancer,Positive,0,The document enlists best hospitals to treat cancer
+,,,,,,https://cancercontrol.cancer.gov/ocs/statistics,Positive,1,Contains graphs and  statistics on cured cancer
+,,,,,,https://www.mayoclinic.org/tests-procedures/cancer-treatment/about/pac-20393344,Positive,0,The document contains detailed explanation on how to treat cancer
+,,,,,,https://www.cancer.org/cancer/pancreatic-cancer/detection-diagnosis-staging/signs-and-symptoms.html,Negative,0,Lists signs and symptoms of pancreatic cancer
+,,,,,,https://www.cancer.gov/about-cancer/treatment/side-effects,Negative,0,Mentions the side effects of carrying out a cancer.
+,,,,,,https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/cancer-prevention/art-20044816,Positive,0,Document enlists cancer prevention tips
+7,Cure high blood pressure in 3 mins,User 1,Positive,User wants to know how to reduce high blood pressure in 3 mins or less.,"Relevant: Blogs containing the quick remedies to high blood pressure.
+
+Irrelevant: Blogs discussing the cause of high BP, hospitals or medicines to cure high BP.",https://www.canpharm.com/blog/high-to-low-blood-pressure-in-minutes,Positive,1,Provides information as mentioned in our Information Need on how to reduce blood pressure in 3 minutes or less.
+,,,,,,https://hhma.org/how-can-i-lower-my-blood-pressure-immediately/,Positive,0,Contains methods on how to reduce blood pressure immediately within 15 minutes which is irrelevant.
+,,,,,,https://www.youtube.com/watch?v=3KueabH8B8M,Positive,0,Video on how to reduce the blood pressure within 5 minutes.
+,,,,,,https://www.onhealth.com/content/1/lower_blood_pressure_immediately_naturally_chart,Positive,0,Ways of life to follow to reduce blood pressure immediately and naturally.
+,,,,,,https://www.honorhealth.com/healthy-living/6-best-exercises-control-high-blood-pressure,Positive,0,Contains lists of exercises to follow to control high blood pressure.
+,,,,,,https://www.webmd.com/hypertension-high-blood-pressure/safe-exercise-tips,Positive,0,Contains information regarding exercises which should be done in a regular timeframe by the patients.
+,,,,,,https://www.bloodpressureuk.org/your-blood-pressure/how-to-lower-your-blood-pressure/healthy-living/exercise-physical-activity/,Positive,0,Contains information regarding on how exercises and blood pressure of our body is linked.
+,,,,,,https://www.pearl.com/health/cardiology?r=ppc|gaprl|76|Pearl-Health-Cardio-BMM|pearl-health-medical-bp|&JPMCC=9283418415&JPKW=%2Bblood%20%2Bpressure&JPDC=S&JPST=&JPAD=496538556232&JPMT=b&JPNW=g&JPAF=txt&JPRC=1&JPCD=&JPOP=&cmpid=12259480781&agid=120997212601&fiid=&tgtid=kwd-488378329672&ntw=g&dvc=c&gclid=Cj0KCQjwpcOTBhCZARIsAEAYLuUAhsqN2aCtV1B2y-mzwEvbe5zNUfBT9JXKAXdnttx9h0qWEPCZb2QaAiaaEALw_wcB,Positive,0,Provides online live support in case of blood pressure related issues.
+,,,,,,https://my.clevelandclinic.org/health/articles/4249-hypertension-and-nutrition,Positive,0,Contains information regarding the food and the diet to follow in order to control Hypertension and Nutrition.
+,,,,,,https://www.webmd.com/hypertension-high-blood-pressure/ss/slideshow-worst-foods-high-blood-pressure,Negative,0,Contains list of foods that are enlisted as worst foods by WHO for people with hypertension.
+8,Robots usage in surgery,User 1,Positive,User wants to know 'how' robots are used in surgeries by the doctors.,"Relevant: Documents explaining how robots are used in different surgeries, types of robots used in surgeries.
+
+Irrelevant: Documents mentioning where to buy these surgical robots, courses related to healthcare robotics, etc.",https://www.uclahealth.org/robotic-surgery/what-is-robotic-surgery,Positive,1,mentions about how robot surgery is being performed
+,,,,,,https://online-engineering.case.edu/blog/medical-robots-making-a-difference,Positive,1,lists types of robots used in surgery
+,,,,,,"https://www.westvalleysurgeons.com/blog/is-robotic-surgery-safe#:~:text=Robotic%2Dassisted%20surgery%20is%20overall,potential%20benefits%20of%20surgical%20treatment",Positive,0,contains discussion on if robot assisted surgery is safe or not and concludes by saying its safe
+,,,,,,https://zaggocare.org/dangers-robotic-assisted-surgery/,Negative,0,The document mentions the dangers of robot assisted surgery
+,,,,,,https://www.washingtonpost.com/news/wonk/wp/2016/07/28/expensive-robots-may-not-be-making-surgeons-or-patients-much-better/,Negative,0,The document contains information on whether using robots for surgery is advisable or not
+,,,,,,https://www.slashgear.com/791502/the-coolest-robots-you-can-buy-today/,Positive,0,irrelevant as the document mentions about which robots to buy
+,,,,,,https://surgical-solutions.com/blog/what-is-robotic-surgery-and-how-does-it-work/ ,Positive,1,Mentions how robotic surgery works and some of the common instruments used in robotic surgery
+,,,,,,https://www.uchealth.com/services/robotic-surgery/patient-information/benefits/,Positive,0,mentions the benefits of robotic surgery
+,,,,,,https://www.bbc.com/future/article/20150812-how-to-tell-a-good-robot-from-the-bad,Negative,0,The documents mentions the dangers of robots which are not relevant to the users
+,,,,,,"https://business.esa.int/funding/invitation-to-tender/robotics-for-society#:~:text=Robots%20eliminate%20dangerous%20jobs%20for,also%20saving%20time%20and%20money",Positive,0,The document mentions that using robots are making society a better place.
+9,AI in healthcare,User 1,Positive,User wants to know how AI is used in healthcare industry.,"Relevant: Documents/blogs mentioning the case studies of using AI in healthcare applications.
+
+Irrelevant: Documents arguing the pros and cons of using AI in healthcare, jobs related to applied AI, etc.","https://www.foreseemed.com/artificial-intelligence-in-healthcare#:~:text=A%20common%20use%20of%20artificial,and%20better%20results%20for%20patients",Positive,1,"The documents mentions how nlp can be used in healthcare"
+,,,,,,https://www.forbes.com/sites/bernardmarr/2018/07/27/how-is-ai-used-in-healthcare-5-powerful-real-world-examples-that-show-the-latest-advances/,Positive,1,Document mentions how AI is used in healthcare with 5 real-world examples
+,,,,,,"https://www.healthcareitnews.com/news/emea/who-warns-about-risks-ai-healthcare#:~:text=Although%20there%20are%20many%20opportunities,%2C%20cybersecurity%2C%20and%20the%20environment",Negative,0,Document speaks about WHO warning about the risks of using AI in healthcare
+,,,,,,https://drexel.edu/cci/stories/artificial-intelligence-in-medicine-pros-and-cons/,Negative,0,Document illustrates the pros and cons of using AI in healthcare
+,,,,,,https://www.indeed.com/q-Healthcare-Artificial-Intelligence-jobs.html,Positive,0,"Document enlists Healthcare Artificial intelligence jobs"
+,,,,,,"https://ai100.stanford.edu/2021-report/standing-questions-and-responses/sq2-what-are-most-important-advances-ai#:~:text=Underlying%20Technologies-,In%20the%20last%20five%20years%2C%20the%20field%20of%20AI%20has,and%20integration%20of%20vision%20and",Positive,0," Document Talks about most important advancements in AI"
+,,,,,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7325854/ ,Positive,1,"Contains a research paper/case study on advancements of AI in healthcare"
+,,,,,,https://www.allerin.com/blog/why-healthcare-is-not-ready-for-ai-yet ,Negative,0,Document argues that we should not use AI in healthcare yet.
+,,,,,,"https://bernardmarr.com/is-artificial-intelligence-dangerous-6-ai-risks-everyone-should-know-about/#:~:text=Outside%20of%20preparing%20for%20a,some%20key%20AI%2Drelated%20risks.&text=AI%20programmed%20to%20do%20something,way%20AI%20can%20pose%20risks",Negative,0,Document talks about AI being dangerous 
+,,,,,,https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/artificial-intelligence-applications,Positive,0, Lists applications of Artificial Intelligence in general
+10,most effective mental health treatment,User 1,Positive,User wants to know the effective treatments for mental disorders and preventive measures.,"Relevant: Documents explaining the methods of diagnosis and treatment.
+
+Irrelevant: Documents containing information about mental disorders in general, its causes, about mental health, etc.",https://mhanational.org/mental-health-treatments,Positive,1,Document mentions some of the best mental health treatments.
+,,,,,,https://medlineplus.gov/mentaldisorders.html,Negative,0,Document contains a list of mental disorders which are irrelevant to the user.
+,,,,,,https://www.mayoclinic.org/diseases-conditions/mental-illness/diagnosis-treatment/drc-20374974,Positive,1,Mentions diagnosis and treatment of mental health disorder.
+,,,,,,https://www.benenden.co.uk/be-healthy/mind/ten-ways-to-help-your-mental-health/,Positive,1,Mentions a list of details regarding how to make mental health better
+,,,,,,https://www.mind.org.uk/information-support/types-of-mental-health-problems/mental-health-problems-introduction/causes/,Negative,0,Mentions a list of causes for mental health related problems
+,,,,,,https://www.rethink.org/advice-and-information/carers-hub/does-mental-illness-run-in-families/,Negative,0,Mentions that mental illness can be hereditary and it can come genetically
+,,,,,,https://health.usnews.com/best-hospitals/rankings/psychiatry,Positive,0,Contains list of hospitals which are best for psychiatry.
+,,,,,,https://www.iesohealth.com/en-gb/blog/5-tips-for-managing-health-anxiety ,Negative,0,Mentions a list of causes for mental health related problem
+,,,,,,https://www.psychiatry.org/patients-families/what-is-mental-illness,Positive,0,"Mentions about what mental illness is about"
+,,,,,,"https://www.mayoclinic.org/diseases-conditions/mental-illness/symptoms-causes/syc-20374968#:~:text=There's%20no%20sure%20way%20to,keep%20your%20symptoms%20under%20control.",Negative,0,Contains common symptoms and causes of mental health disorders which are not relevant to the users
+11,Insurance fraud in healthcare,User 2,Negative,User want the documents that gives the names of the companies that were involved in health care related insurance fraud ,"Relevant : The names of the companies that were involved in insurance scams related to health care industry.
+
+Irrelavant:  All other companies involved in other industry scams are considered as irrelavant.",https://www.forbes.com/advisor/health-insurance/best-health-insurance-companies/,Positive,0,"contains list of trusted healthcare companies, their ratings and customer feedback"
+,,,,,,https://www.fbi.gov/scams-and-safety/common-scams-and-crimes/health-care-fraud,Negative,0,document talks about scams in the healthcare insurance industry
+,,,,,,https://www.valuepenguin.com/best-health-insurance-companies,Positive,0,contains list of trusted healthcare companies in the current year
+,,,,,,https://www.investopedia.com/best-health-insurance-companies-4775920,Positive,0,contains list of trusted healthcare companies in the current year and best plans are mentioned as comparison
+,,,,,,https://www.thebalance.com/best-health-insurance-companies-4174511,Positive,0,contains list of trusted healthcare companies in the current year
+,,,,,,https://www.fbi.gov/scams-and-safety/common-scams-and-crimes,Negative,0,fbi report on variety of fraud cases that are not healthcare
+,,,,,,https://www.moneygeek.com/insurance/health/resources/protecting-against-fraud/,Positive,1,"document contains list of healthcare insurance companies involved in fraudulent activities and talks about avoiding insurance frauds, tips and guidance"
+,,,,,,https://www.helpstopfraud.org/Types-of-Insurance-Fraud/Health,Positive,1,"document list of healthcare insurance companies involved in fraudulent activities and talks about avoiding insurance frauds, helpline and recovery"
+,,,,,,https://www.atlanta-criminal-law.com/blog/2020/october/the-3-main-types-of-fraud/,Negative,0,document talks about common scams and fraudulent activities
+,,,,,,https://www.rocklandtrust.com/learning-center/business-resources/8-ways-to-protect-yourself-from-fraud,Positive,0,documents provides safety measures against scams and frauds but it is not related to healthcare insurance
+12,Current healthcare advancements ,User 2,,User wants to know the advancements and innovations done in the field of medicine and how they have helped to improve the healthcare industry.,"Relevant :  Documents mentioning the progress and advancements in present day that has been made in the healthcare industry.
+
+Irrelavant: Other documents that mentions the developments that are still in development or testing phase but proving to be a big breakthrough in the industry. ",https://www.medicaltechnologyschools.com/medical-lab-technician/top-new-health-technologies,Positive,0,"Mentions future technologies that will be included in 2022 "
+,,,,,,"https://www.aamc.org/news-insights/8-medical-advances-you-may-have-missed-during-covid-19",Positive,1,"Mentions technologies that has been introduced in the present time frame"
+,,,,,,https://www.proclinical.com/blogs/2022-4/top-10-new-medical-technologies-2022,Positive,1,Mentions about the technologies that have been introduced and are being used and developed for the present time frame.
+,,,,,,"https://www.galendata.com/disadvantages-of-technology-in-healthcare/",Negative,0,"Mentions about the disadvantages of future technologies in the healthcare field."
+,,,,,,"https://onlinenursing.duq.edu/blog/important-trends-in-healthcare/",Positive,0,"Mentions about the growth trends followed in healthcare"
+,,,,,,"https://evisit.com/resources/10-pros-and-cons-of-telemedicine/",Positive,1,"Includes details regarding the pros and cons of telemedicine in the healthcare sector. This tells about more advancements
+"
+,,,,,,https://mobidev.biz/blog/technology-trends-healthcare-digital-transformation,Positive,1,Contains information regarding how the modern technologies have been put to use in the current timeframe.
+,,,,,,https://www.carevoyance.com/blog/medical-technology-advances-100-years,Positive,0,Contains information regarding the future technologies which are being researched on.
+,,,,,,"https://www.elcom.com.au/resources/blog/the-impact-of-technology-in-healthcare-trends-benefits-examples",Positive,1,Contains information regarding how the technology that has become to a stable use has been used in the healthcare sector.
+,,,,,,"https://www.ahrq.gov/sites/default/files/wysiwyg/research/findings/nhqrdr/2019qdr.pdf",Positive,0,"Provides a report regarding the healthcare quality.
+"
+13,Review of good doctors,User 2,Positive,User is looking to get the review for the best doctors near his location for a medical consultation,"Relevant : The list of doctors having the best rating and reviews in the surrounding area where the user is residing is considered the most relevant documents.
+
+Irrelavant : Any other information like a series name or documents showing review of doctors not in the vicinity of the user.",https://www.rottentomatoes.com/tv/the_good_doctor/s01,Positive,0,Provides the user/critics review of the good doctor series.
+,,,,,,https://www.imdb.com/title/tt6470478/,Positive,0,Provides the critics review as mentioned in the Relevance criteria.
+,,,,,,https://www.commonsensemedia.org/tv-reviews/the-good-doctor,Positive,0,Provides the media and community review for the TV show.
+,,,,,,https://eatsleepwander.com/positive-doctor-review-examples/,Positive,0,Includes the information regarding examples on how to review the doctors.
+,,,,,,https://www.healthgrades.com/,Positive,1,Website which provides healthcare services.
+,,,,,,https://medium.com/@MsJayTeeRattray/there-are-no-good-doctors-on-the-good-doctor-377fc4f85e9e,Positive,0,Website which provides review for season 1
+,,,,,,https://www.vitals.com/,Positive,1,Website which provides review for every doctors that we search
+,,,,,,https://health.usnews.com/health-care/patient-advice/slideshows/signs-of-good-doctors,Positive,0,"Website which provides information regarding the deciding factors on whether a doctor is good or not."
+,,,,,,https://alothome.com/landing?slk=physician+reputation+management&nid=1&accid=4844537548&campid=15793613180&agid=130562010174&cid=573194973260&akwd=patient%20ratings%20for%20doctors&mt=b&network=g&dist=s&adposition=&device=c&ismobile=false&devicemodel=&placement=&target=&aceid=&random=10797036410222058433&vx=0&gclid=CjwKCAjwgr6TBhAGEiwA3aVuId5q1f8aQPwC8o44bJy-RlzO0kwnHN6gYWYeyFOb2F1pFcVjJmEaDRoCy4IQAvD_BwE,Positive,1,Website that provides information regarding the customer reviews on doctors.
+,,,,,,https://mydoctorsf.com/testimonials/,Positive,1,Website that enlists information regarding the testimonials about doctors.
+14,Crytocurrency in health care payment system,User 2,Positive,User is looking for hospitals that accepts payment for the medical bill using crytocurrency and the types of crytocurrencies that are accepted. ,"Relevant : Documents that mentions the availability of cryto - based payments in the hospitals and the steps involved in making the payment.
+
+Irrelevant :  Any documents related to general information regarding the cryptocurrency and other irrelavent informations.",https://www.healthcareoutlook.net/top-hospitals-using-cryptocurrencies-for-payment/,Positive,1,This document provides the list of  the top hospitals that are accepting payments in Cryptocurrencies.
+,,,,,,http://aveonhealth.com/patient-information/make-a-payment/we-accept-bitcoin/ ,Positive,1,This document mentions the crypto currency payment system that is present in AveonHeath center.
+,,,,,,https://www.euronews.com/next/2021/12/04/paying-with-cryptocurrencies-these-are-the-major-companies-that-accept-cryptos-as-payment ,Positive,0,This documents presents an article which mentions the major companies that accept the cryptocurrencies.
+,,,,,,https://omnicomhealthgroup.com/pdfs/Cryptocurrency-in-Healthcare.pdf ,Positive,1," Discuss about the cryptocurrencies that are used and accepted in the hospitals run by omnicom health groups."
+,,,,,,https://apexedi.com/how-blockchain-will-affect-the-medical-billing-industry/,Negative,0,"The document speaks about how blockchain technology will be a demerit if implemented in healthcare. This is completely irrelevant and against the sentiment of the query."
+,,,,,,https://fortune.com/2022/05/03/massachusetts-health-care-costs-hospital-expansion/,Negative,0,"This document mentions blocking of the hospital expansion instead of the needed topic on cryptocurrency. "
+,,,,,,https://www.statnews.com/2018/02/01/clinics-bitcoin-payment-physician/ ,Positive,1,This document talks about the use of cryptocurrencies being used in some clinics but doesn’t specify exactly the name of the institution
+,,,,,,https://www.fool.com/the-ascent/cryptocurrency/articles/5-cryptocurrencies-that-have-failed-and-why/,Negative,0,The document talks about cryptocurrencies but not related to health care and just list the failed cryptocurrencies. 
+,,,,,,https://clutch.co/it-services/resources/cryptocurrency-favors-medical-billing-services,Positive,0,his document mentions the benefits of using cryptocurrencies for medical billing services.
+,,,,,,https://techonomy.com/cryptos-terrible-horrible-no-good-bad-week/,Negative,0,"The document is negatively portraying the use of crypto currencies in healthcare"
+15,Propofol overdose,User 2,Positive,User wants to know the allowed intake level of Propofol beyond which would result in overdose ,"Relevant: Documents that mentions the allowed intake level of Propofol as per medical standards.
+
+Irrelevant: Information that are unrelated like the composition of Propofol, deaths by propofol overdose etc.",https://www.everydayhealth.com/drugs/propofol,Positive,1,The document shows an allowed level of Propofol that is advisable.
+,,,,,,https://www.cnn.com/2011/10/28/justice/california-conrad-murray-trial/index.html,Negative,0,The document shows an investigation about the death of Michael Jackson caused by Propofol overdose.
+,,,,,,https://www.medicines.org.uk/emc/product/11295/smpc,Positive,1,Contains information about the dosage of Propofol that is advisable
+,,,,,,https://www.everydayhealth.com/pain-management-pictures/six-celebrities-who-have-died-from-painkiller-ods.aspx,Negative,0,Contains the list of celebrities who died cause of propofol consumption.
+,,,,,,https://www.ncbi.nlm.nih.gov/books/NBK430884/,Positive,1,"Contains information about Propofol drug, its usage etc."
+,,,,,,https://observer.com/2016/06/these-are-the-legal-prescription-drugs-that-have-killed-your-favorite-stars/,Negative,0,Contains information regarding the death of celebrities because of various drug overdose and not specific to propofol.
+,,,,,,https://novodetox.com/how-did-michael-jackson-die/,Negative,0,Contains information regarding the death of Micheal Jackson because of propofol overdose.
+,,,,,,https://www.drugs.com/dosage/propofol.html,Positive,1,The document shows an allowed level of Propofol that is advisable.
+,,,,,,https://www.sltrib.com/news/2019/06/23/u-u-psychiatrist-is/,Negative,0,Contains information regarding the death of Michael Jackson and how Propofol overdose caused it.
+,,,,,,https://www.uchicagomedicine.org/forefront/research-and-discoveries-articles/propofol-a-dangerous-kind-of-rest,Negative,1,Contains a research article on why the Propofol intake is a risk for people to take.
+16,Morphine for Pain,User 2,Positive,User wants to know if Morphine can be used to reduce the pain caused by sprain,"Relevant: Documents that give information about morphine legally being used as a painkiller.
+
+Irrelevant: Documents that tell about the morphine medical composition, its side effects, illegal use are irrelevant to the information need.","https://medlineplus.gov/druginfo/meds/a601161.html#:~:text=Morphine%20injection%20is%20used%20to,nervous%20system%20respond%20to%20pain.",Positive,0,The document is a brief explanation of what Morphine is and what it is composed of in medical terms
+,,,,,,https://www.mayoclinic.org/drugs-supplements/morphine-oral-route/description/drg-20074216,Positive,1,"The document is relevant because it tells that Morphine can be used to reduce pain and why it does so."
+,,,,,,https://medlineplus.gov/druginfo/meds/a682133.html ,Positive,0,The document consists of the medical composition of Morphine and the dosage instructions to take it
+,,,,,,https://www.webmd.com/drugs/2/drug-327-819/morphine-oral/morphine-oral/details,Negative,1,The document is relevant because it tells that Morphine can be used to reduce pain but mostly deals with the side effects of its frequent intake.
+,,,,,,https://www.cancerresearchuk.org/about-cancer/cancer-in-general/treatment/cancer-drugs/drugs/morphine,Positive,1,"he document is relevant because it tells that Morphine can be used to reduce pain and the dosage instructions to have it."
+,,,,,,https://americanaddictioncenters.org/morphine-treatment/mental-and-physical-effects ,Negative,0,"The document consists of the mental and physical health effects of taking Morphine."
+,,,,,,"https://pubmed.ncbi.nlm.nih.gov/17060284/ ",Negative,0,"The document consists of a survey regarding the adverse effects of taking Morphine."
+,,,,,,"https://www.ncbi.nlm.nih.gov/books/NBK526115/ ",Positive,1,The document is relevant because it tells that Morphine can be used to reduce pain and the dosage instructions to have it.
+,,,,,,"https://www.addictioncenter.com/opiates/morphine/ ",Negative,0,The document is about the addiction caused by taking morphine
+,,,,,,https://bmcanesthesiol.biomedcentral.com/articles/10.1186/s12871-018-0583-8,Positive,0,The document provides an alternative to Morphine which is not recommended and the new proposed drug is more safe.
+17,Organ trafficking health care institution,User 2,Negative,User want the reports and news articles that provide investigation on  the health care institutions that were involved in organ trafficking in the world.,"Relevant: Documents that show investigation reports on organ trafficking done by various health care institutions around the world.
+
+Irrelevant:  Any documents that just mentioned trafficking in general or without mentioning any medical institutions involved in it are irrelevant.",https://www.ncsl.org/research/health/human-trafficking-and-the-health-care-system.aspx ,Negative,0,The document is about organ trafficking but doesn’t mention any institutions that were involved in it.
+,,,,,,https://www.choa.org/medical-professionals/referrals-and-transfers/directory-of-services/child-protection-resources/institute-on-healthcare-and-human-trafficking,Positive,0,The document is about an institution that is running to prevent trafficking. This is a positive document that speaks about measures taken to prevent but it is irrelevant to the need.
+,,,,,,https://english.alarabiya.net/features/2017/08/23/Egyptian-authorities-capture-a-network-for-trafficking-human-organs ,Negative,1,"The document is an article about a nurse in a medical institution involved in organ trafficking. This is a relevant document"
+,,,,,,"https://www.reuters.com/article/us-india-trafficking-kidney/doctors-at-top-indian-hospital-charged-in-kidney-harvesting-racket-idUSKCN10M0BN ",Negative,1,"The document is an article about doctors from a medical institution involved in organ trafficking. This is a relevant document"
+,,,,,,"https://www.ncsl.org/research/health/human-trafficking-and-the-health-care-system.aspx",Positive,0,The article shows a statistical date of trafficking that happened in the past years.
+,,,,,,"https://www.unodc.org/documents/human-trafficking/2015/UNODC_Assessment_Toolkit_TIP_for_the_Purpose_of_Organ_Removal.pdf ",Negative,0,"The document talks about organ trafficking but doesn’t mention about institution involved in it"
+,,,,,,"https://www.universityworldnews.com/post.php?story=20161215114217476 ",Negative,1,The document is about the doctors in a medical college involved in trafficking organs from donated bodies for the study purpose.
+,,,,,,https://www.state.gov/wp-content/uploads/2020/06/2020-TIP-Report-Complete-062420-FINAL.pdf,Positive,0,The document is a government report about organ trafficking and talks about how the government has made measures to curb its numbers.
+,,,,,,"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1867886/ ",Negative,1,The document is about the arrest of a doctor from an institution involved in organ trafficking and an investigation on this.
+,,,,,,"https://www.dailymail.co.uk/news/article-3031784/Inside-illegal-hospitals-performing-thousands-black-market-organ-transplants-year-200-000-time.html ",Negative,1,"The document is an investigative article about the hospitals performing illegal organ trafficking."
+18,When should I go for Chemotherapy,User 2,Positive,User wants the information regarding the best timeline for beginning Chemotherapy for treating cancer.,"Relevant: Documents/health care journals outlining the perfect time to undergo chemotherapy treatment.
+
+Irrelevant: Documents that gives details about Chemo and the drugs used, medical practioners prociding chemo are not relevant.","https://www.cancer.net/navigating-cancer-care/how-cancer-treated/chemotherapy/what-expect-when-having-chemotherapy",Positive,1,"This document gives information about the time to start chemotherapy and what are the things to know during the treatment, which is exactly what we are expecting."
+,,,,,,https://www.cancerresearchuk.org/about-cancer/cancer-in-general/treatment/chemotherapy/planning/your-chemotherapy-plan,Positive,1,This document outlines the exact timeline of chemotherapy which gives the exact start of the treatment. This is a relevant document to us.
+,,,,,,"https://www.webmd.com/cancer/chemo-delivery",Positive,0,"This document gives information about how to take Chemotherapy Drugs, which is irrelevant to our information-need."
+,,,,,,https://www.verywellhealth.com/when-is-chemother ,Negative,1,"This article speaks about the time when a person usually goes to Chemotherapy treatment and talks about the side effects during the treatment."
+,,,,,,"https://www.cancer.org/treatment/treatments-and-side-effects/treatment-types/chemotherapy/how-is-chemotherapy-used-to-treat-cancer.htmlapy-not-recommended-5199567",Positive,0,"This document explains how chemotherapy is used to treat cancer, which is an irrelevant document as per our information-need."
+,,,,,,"https://mnoncology.com/images/uploads/When-Stopping-Chemotherapy-is-the-Best-Option.pdf ",Negative,0,This document is about when to stop the chemotherapy and talks about the negative effects on why to stop it.
+,,,,,,"https://www.breastcancer.org/treatment/chemotherapy",Positive,0,"The document talks about the Chemo process, this is a positive document to look at but it's irrelevant to the user need."
+,,,,,,https://www.mdanderson.org/cancerwise/what-to-expect-on-your-first-day-of-chemotherapy.h00-158828067.html ,Positive,1,This document talks about when we can start the chemotherapy treatments and also what the patient must expect on that day.
+,,,,,,https://www.cancercenter.com/community/blog/2021/03/benefits-and-risks-of-chemotherapy,Positive,0,Document is about the benefits and risks and not about the information needed by the user
+,,,,,,https://hollingscancercenter.musc.edu/patient-care/cancer-treatment/medical-oncology/what-to-expect ,Positive,0,"The document is about what the chemotherapy patient can expect after starting Chemotherapy treatment, which is irrelevant to the need"
+19,US vs UK health care systems,User 2,,User wants a comparison of the health care facilities that are provided in USA and UK ,"Relevant: Documents that provides the details about the health care system of the USA and UK by comaparing them side by side.
+
+Irrelevant: Documents that provides information about the health care of the countries separately or any other documents that doesn't provide any comaparison of them are considered irrelevant.","https://www.healthcareadministration.com/brief-comparison-uk-healthcare-system-vs-u-s-healthcare-system/#:~:text=While%20both%20systems%20have%20world,tax%20based%20system%20versus%20the",Positive,1,"Contains a brief comparison of healthcare in both the countries"
+,,,,,,https://www.cnn.com/2019/08/07/opinions/single-payer-healthcare-beers/index.html ,Positive,1,Contains a blog written by a person who has lived in both the countries and describes the differences in both the country’s healthcare
+,,,,,,https://www.investopedia.com/articles/personal-finance/080615/6-reasons-healthcare-so-expensive-us.asp ,Negative,0," Lists out points and says why cost of healthcare in US is more expensive"
+,,,,,,http://assets.ce.columbia.edu/pdf/actu/actu-uk.pdf ,Positive,0,Only describes about the healthcare system in the Uk
+,,,,,,"https://www.independent.co.uk/life-style/health-and-families/health-news/nhs-uk-now-has-one-of-the-worst-healthcare-systems-in-the-developed-world-according-to-oecd-report-a6721401.html#:~:text=The%20UK%20has%20one%20of,a%20chronic%20lack%20of%20investment. ",Negative,0,"This Document says that UK has one of the worst healthcare system"
+,,,,,,https://theweek.com/articles/789287/good-bad-ugly-englands-universal-healthcare-system,Positive,0,"Describes good and bad things about healthcare only in UK"
+,,,,,,https://www.iwf.org/2020/11/24/pandemic-or-not-america-has-the-best-healthcare-in-the-world/,Positive,0,Argues that the US has one of the best healthcare systems in the world.
+,,,,,,https://www.commonwealthfund.org/blog/2018/what-can-us-and-england-learn-each-others-health-care-reforms,Positive,1,"Provides a detailed comparison between both the country’s healthcare and what both has to learn from each other"
+,,,,,,https://www.investopedia.com/articles/personal-finance/072116/us-healthcare-costs-compared-other-countries.asp,Positive,0,"Compares US’s healthcare system with other countries which is not relevant to the user."
+,,,,,,https://www.gsb.stanford.edu/insights/three-ways-transform-american-healthcare,Positive,0,"Provides ways to improve the American healthcare system. "
+20,Bypass surgery in America,User 2,Positive,User wants to get the documents related to the success story of Bypass surgeries performed in United States.,"Relevant: Documents that mentions successfuly performed heart bypass surgeries in the United States.
+
+Irrelevant: Any mention of bypass surgery performing hospitals, doctors or any mention of bypass surgery in other parts of the country are irrelevant.  ",https://www.upmc.com/services/heart-vascular/services/heart-surgery?utm_mrid=mrid0696&utm_source=GOOGLE&utm_medium=cpc&utm_campaign=71700000037477414&utm_adgroup=58700004162342949&utm_term=heart+surgery+hospital&utm_advertiserid=700000001754539&gclid=Cj0KCQjwpcOTBhCZARIsAEAYLuXHSPiKEfQXSLhveeAJV6eSxOQF_oTcLmn5xUqb4C_ktNyT1S81Mz4aAplGEALw_wcB&gclsrc=aw.ds,Positive,0,Contains information regarding the procedure and information regarding the bypass process in the organization.
+,,,,,,https://www.sentara.com/medicalservices/services/heart-and-vascular.aspx?utm_source=eruptr&utm_medium=cpc&cr=woodbridge_heart&utm_campaign=woodbridge_heart&gclid=Cj0KCQjwpcOTBhCZARIsAEAYLuVLh5j9g8lt5iPdlsd2s-CFpiqma_2TlPLStNL7tenpY7OIWfDKKsgaAg59EALw_wcB,Positive,0,Contains information regarding the operation and the procedure to book an appointment for the bypass surgery.
+,,,,,,https://www.speedysearchresults.com/web?q=cost%20for%20bypass%20surgery&kwid=cost%20for%20bypass%20surgery&cid=557159152275&site=&gclid=Cj0KCQjwpcOTBhCZARIsAEAYLuVTzL3XmlACpYw3puqr-TREv7CN4HQZ5Yiubf5dUE-A3bPW1yNvYy4aAglpEALw_wcB&qsrc=999&qo=semQuery&ad=semD&o=1517257&l=sem&askid=0731200e-ca38-47d8-bd9f-7422fa354bc7-0-se_gsb&dqi=&ag=fw81&am=broad&an=google_s,Positive,0,This document contains information regarding the cost for the surgery.
+,,,,,,https://www.webmd.com/heart-disease/heart-disease-bypass-surgery,Positive,1,Contains information regarding the purpose and how the bypass surgery is done.
+,,,,,,https://www.beckershospitalreview.com/cardiology/10-best-hospitals-for-cardiology-ranked-by-us-news.html,Positive,0,Link provides in information regarding top 10 best cardiology based hospitals in US.
+,,,,,,https://www.cedars-sinai.org/programs/heart/clinical/cardiac-surgery.html?s_kwid=&gclid=Cj0KCQjwpcOTBhCZARIsAEAYLuWdwLASk3ALD4ULL4_9n4ei7xLgkhNRXCzMnViiaWbRRPJ5KccEqOAaAiJfEALw_wcB&gclsrc=aw.ds,Positive,0,Provides information regarding the surgery and the procedure for it.
+,,,,,,https://www.umms.org/ummc/health-services/heart-vascular/services/coronary-artery-disease/bypass-surgery-patient-stories,Positive,1,Contains information regarding the success stories of the surgery and how it had a postive impact on each patient’s life.
+,,,,,,https://www.newsweek.com/worlds-best-specialized-hospitals-2021,Positive,0,Contains information regarding the best hospitals in the world that are specialised in Cardio Vascular surgery.
+,,,,,,https://www.sentara.com/healthwellness/data/patient-stories/roger-newill-heart-bypass-cardiac-rehab-hampton-roads.aspx,Positive,1,Contains an article regarding the experience of a patient after Bypass surgery.
+,,,,,,https://www.upmc.com/services/heart-vascular/upmc-difference/patient-stories/jim-julian,Positive,1,Contains information regarding an patient’s story on Bypass Surgery.
+21,Veteran Health clinics,User 3,Positive,User wants to know the health clinics that offer special discounts for veterans or exclusive hospitals for veterans.,"Relevant: Documents related to nearby clinics exclusive for veterans, offering special discount for veterans.
+
+Irrelevant: Documents related to clinics run by doctors serving in military, special healthcare plans for veterans.",https://www.va.gov/boston-health-care/ ,Positive,1,"The document provides locations of clinics and hospitals are aimed at guiding by the needs of veterans and their families"
+,,,,,,https://veteran.com/military-and-veteran-discounts/,Positive,0,"Contains general discounts for veterans (excluding healthcare)"
+,,,,,,https://www.healthcare.gov/veterans/,Positive,1,Contains healthcare plans for veterans
+,,,,,,"https://blog.bayada.com/work-life/honoring-our-veterans#:~:text=Whether%20they%20served%20in%20active,to%20mental%20health%20or%20PTSD)",Positive,0,"The document discusses why we should support our veterans."
+,,,,,,https://www.census.gov/library/stories/2021/11/how-do-we-support-americas-veterans.html ,Positive,0,Contains statistics on how we are serving our veterans
+,,,,,,"https://www.healthcare.gov/veterans/#:~:text=If%20you're%20enrolled%20in,to%20enroll%20in%20a%20plan",Positive,1,Contains a program which is a veteran’s healthcare program
+,,,,,,https://www.csmonitor.com/USA/Politics/Politics-Voices/2015/0317/Yes-veterans-should-pay-taxes-like-everyone-else-and-we-do,Negative,0,"Argues whether veterans should pay taxes, are they paying or not."
+,,,,,,https://www.census.gov/newsroom/blogs/random-samplings/2016/11/who_are_veterans.html ,Positive,0,Contains information about who are veterans
+,,,,,,https://www.davma.org/services/volunteers/,Positive,0,"The document mentions about volunteer programs which are aimed at helping veterans"
+,,,,,,https://www.va.gov/OSDBU/docs/Determining-Veteran-Status.pdf,Positive,0,"The document mentions veteran status and who qualify as veterans."
+22,Propofol overdose,User 3,Negative,User wants to know some famous personality whose deaths was caused by Propofol overdose - For instance Michael Jackson,"Relevant: Documents related to the death of personalities who died by Propofol overdose.
+
+Irrelevant: Documents that gives the composition of the Propofol, its legal intake level are some of the irrelevant.",https://www.everydayhealth.com/drugs/propofol,Positive,0,The document shows an allowed level of Propofol that is advisable.
+,,,,,,https://www.cnn.com/2011/10/28/justice/california-conrad-murray-trial/index.html,Negative,1,The document shows an investigation about the death of Michael Jackson caused by Propofol overdose.
+,,,,,,https://www.medicines.org.uk/emc/product/11295/smpc,Positive,0,Contains information about the dosage of Propofol that is advisable
+,,,,,,https://www.everydayhealth.com/pain-management-pictures/six-celebrities-who-have-died-from-painkiller-ods.aspx,Negative,1,Contains the list of celebrities who died cause of propofol consumption.
+,,,,,,https://www.ncbi.nlm.nih.gov/books/NBK430884/,Positive,0,"Contains information about Propofol drug, its usage etc."
+,,,,,,https://observer.com/2016/06/these-are-the-legal-prescription-drugs-that-have-killed-your-favorite-stars/,Negative,1,Contains information regarding the death of celebrities because of various drug overdose and not specific to propofol.
+,,,,,,https://novodetox.com/how-did-michael-jackson-die/,Negative,1,Contains information regarding the death of Micheal Jackson because of propofol overdose.
+,,,,,,https://www.drugs.com/dosage/propofol.html,Positive,0,The document shows an allowed level of Propofol that is advisable.
+,,,,,,https://www.sltrib.com/news/2019/06/23/u-u-psychiatrist-is/,Negative,1,Contains information regarding the death of Michael Jackson and how Propofol overdose caused it.
+,,,,,,https://www.uchicagomedicine.org/forefront/research-and-discoveries-articles/propofol-a-dangerous-kind-of-rest,Negative,0,Contains a research article on why the Propofol intake is a risk for people to take.
+23,Insurance fraud in healthcare,User 3,Positive,User want the documents that gives the names of the companies that are trust worthy and renowned providers health care insurance,"Relevant : The names of the companies that are famous providers of healthcare insurance.
+
+Irrelavant:  All other documents that doesn't provide the name of the best insurance providers.",https://www.forbes.com/advisor/health-insurance/best-health-insurance-companies/,Positive,1,"contains list of trusted healthcare companies, their ratings and customer feedback"
+,,,,,,https://www.fbi.gov/scams-and-safety/common-scams-and-crimes/health-care-fraud,Negative,0,document talks about scams in the healthcare insurance industry
+,,,,,,https://www.valuepenguin.com/best-health-insurance-companies,Positive,1,contains list of trusted healthcare companies in the current year
+,,,,,,https://www.investopedia.com/best-health-insurance-companies-4775920,Positive,1,contains list of trusted healthcare companies in the current year and best plans are mentioned as comparison
+,,,,,,https://www.thebalance.com/best-health-insurance-companies-4174511,Positive,1,contains list of trusted healthcare companies in the current year
+,,,,,,https://www.fbi.gov/scams-and-safety/common-scams-and-crimes,Negative,0,fbi report on variety of fraud cases that are not healthcare
+,,,,,,https://www.moneygeek.com/insurance/health/resources/protecting-against-fraud/,Positive,0,"document talks about avoiding insurance frauds, tips and guidance"
+,,,,,,https://www.helpstopfraud.org/Types-of-Insurance-Fraud/Health,Positive,0,"document talks about avoiding insurance frauds, helpline and recovery"
+,,,,,,https://www.atlanta-criminal-law.com/blog/2020/october/the-3-main-types-of-fraud/,Negative,0,document talks about common scams and fraudulent activities
+,,,,,,https://www.rocklandtrust.com/learning-center/business-resources/8-ways-to-protect-yourself-from-fraud,Positive,0,documents provides safety measures against scams and frauds but it is not related to healthcare insurance
+24,best healthcare in Massachusetts,User 3,Positive,"User wants to know why the health care is considered the best in the state of Massachusetts and also want to know about the treatments that are well renowned, performed in this state","Relevant: Documents showing exact information about why the health care in the state of Massachusetts are considered the best and what are the treatments that are famous.
+
+Irrelevant: Other informations like the best hospitals in boston and their reviews are considered irrelevant.","https://whdh.com/news/massachusetts-is-best-state-for-health-care-in-america-new-study-says/#:~:text=BOSTON%20(WHDH)%20%2D%20Massachusetts%20is,during%20the%20ongoing%20coronavirus%20pandemic",Positive,1,The document contains information on  Massachusetts being the state which provides best healthcare in the United States.
+,,,,,,https://www.healthline.com/health-news/why-massachusetts-is-healthiest-state-in-country,Positive,1,The document states that Massachusetts has the best healthcare so it is one of the healthiest state
+,,,,,,https://www.masslive.com/news/2021/07/these-are-the-best-hospitals-in-massachusetts-according-to-the-2021-22-us-news-world-report-rankings.html,Positive,0,Document contains list of best hospitals in massachusetts
+,,,,,,https://www.safewise.com/blog/safest-cities-massachusetts/,Positive,0,"The document contains 20 safest cities in Massachusetts which are not relevant to the users."
+,,,,,,https://thisweekinworcester.com/fbi-data-dangerous-cities-2020/,Negative,0,The document mentions a list of places which are dangerous in Massachusetts
+,,,,,,https://massachusetts.networkofcare.org/mh/services/medicare-hospital-rating.aspx ,Positive,0,"Document gives list of reviews of hospitals in massachusetts"
+,,,,,,https://patch.com/massachusetts/boston/ma-named-one-2021s-worst-states-doctors-wallethub,Negative,0,The document mentions that Massachusetts provides one of the worst healthcare in the united states.
+,,,,,,https://www.creditdonkey.com/why-massachusetts.html,Positive,0," Document provides information on Massachusetts probably being one of the best states."
+,,,,,,https://www.usnews.com/news/best-states/rankings/health-care ,Positive,0,The document contains a list of rankings of best healthcare cities in the United States in which MA is ranked 2nd.
+,,,,,,https://www.yelp.com/search?find_desc=worst+hospitals&find_loc=Boston%2C+MA ,Negative,0,Document contains list of worst medical hospitals in boston.
+25,How can health care be improved,User 3,Positive,User wants to know the methods that can be used to refine and upgrade the healthcare industry ,"Relevant: Documents showcasing the tips and various method that can used implemented to boost the advancements in healthcare
+
+Irrelevant: Documents that provide a vague reason regarding the topics like why the health care should be improved instead of explaing the ways to do it are irrelevant.",https://proactive-md.com/5-ways-to-improve-the-quality-of-healthcare/,Positive,1,Provides list of methods to improve the quality of healthcare
+,,,,,,https://www.hsph.harvard.edu/ecpe/8-healthcare-quality-improvement-tips/,Positive,1,"Provides tips to improve the quality of healthcare"
+,,,,,,https://www.rttnews.com/slideshow/3683/the-10-worst-countries-in-the-world-for-health-care.aspx,Negative,0,Mentions about countries which has the worst healthcare system
+,,,,,,"https://www.foreseemed.com/artificial-intelligence-in-healthcare#:~:text=A%20common%20use%20of%20artificial,and%20better%20results%20for%20patients",Positive,1,Explains how AI can be used to improve the healthcare system
+,,,,,,https://health.gov/healthypeople/objectives-and-data/browse-objectives/health-care,Positive,0,Document talks about why good healthcare is important but does not provide clear ways to improve it.
+,,,,,,https://americancareercollege.edu/pulse/health-e-news/advancements-in-healthcare-technology-benefits-for-todays-healthcare-students.html ,Positive,1,"The document talks about recent advancements in healthcare technology"
+,,,,,,https://www.who.int/news/item/13-12-2017-world-bank-and-who-half-the-world-lacks-access-to-essential-health-services-100-million-still-pushed-into-extreme-poverty-because-of-health-expenses,Negative,0,Document mentions that half of the world lacks essential healthcare services.
+,,,,,,https://medicalfuturist.com/ten-ways-technology-changing-healthcare/,Positive,1,Talks about the future of healthcare: Major advancements in the healthcare industry
+,,,,,,https://www.theatlantic.com/health/archive/2021/11/the-mass-exodus-of-americas-health-care-workers/620713/,Negative,0,Discusses the trauma that some healthcare workers face by seeing the deaths and toll taken which is not relevant to the user.
+,,,,,,https://www.afd.fr/en/actualites/big-challenge-improve-poor-countries-health-care-systems-christophe-paquet,Negative,0,Mentions that we need to improve healthcare system in the poor countries
