@@ -5,9 +5,9 @@ import numpy as np
 if __name__ == '__main__':
     TopicAvgPrecisionList = []
 
-    eval_set = pd.read_excel("eval_set.xlsx")
-    query_list = eval_set['Query'].tolist()
-    qrels = eval_set[['Query', 'link', 'Context Class', 'Relevance Score']].tolist()
+    eval_set = pd.read_csv("Evaluation Set.csv").ffill()
+    query_list = eval_set['Query'].unique().tolist()
+    qrels = eval_set[['Query', 'link', 'Context Class', 'Relevance Score']].values.tolist()
 
     # Iterating all the queries given in the evaluation set topics
     for queryTopic in query_list:
