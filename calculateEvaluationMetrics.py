@@ -55,4 +55,4 @@ if __name__ == '__main__':
 
     print("Sum of all Average Precision: ", totavgPrec)
     map_50 = totavgPrec / len(TopicAvgPrecisionList)
-    print("MAP@50 for the list of query_topics : ", map_50)
+    print("MAP@50 for the list of query_topics : ", np.round(map_50, 4))
