@@ -16,16 +16,16 @@ if __name__ == '__main__':
         rankList_For_Query = search_results['link']
 
         # Getting the relevant documents for the Query - Fetched from the evaluation set list
-        relavent_doc = []
+        relevant_doc = []
         for qr in qrels:
-            # If the list has the documents with current query and if the reeevent score field is 1 =>
+            # If the list has the documents with current query and if the relevant score field is 1 =>
             # They are relevant documents for the query based on user relevance
-            if (qr[0] == queryTopic and qr[3] == 1):
-                relavent_doc.append(qr[2])
+            if qr[0] == queryTopic and qr[3] == 1:
+                relevant_doc.append(qr[2])
 
-        # If relevant documents are not present we add 0 to list - Foud a document with no relevant document
+        # If relevant documents are not present we add 0 to list - Found a document with no relevant document
         # So to handle it we use the following method.
-        if (len(relavent_doc) == 0):
+        if len(relevant_doc) == 0:
             TopicAvgPrecisionList.append(0)
         else:
 
@@ -36,18 +36,18 @@ if __name__ == '__main__':
             query_rel_rank = []
             totPrecision = 0
             for docList in rankList_For_Query:
-                # If we find the relevant document, we add the relvant count index i
+                # If we find the relevant document, we add the relevant count index i
                 # We add the precision to totPrecision
-                if (docList[0] in relavent_doc):
+                if docList[0] in relevant_doc:
                     i = i + 1
                     totPrecision = totPrecision + (i / float(count))
                 # If we found all the relevant documents, no need to iterate further.
-                if (i == len(relavent_doc)):
+                if i == len(relevant_doc):
                     break
 
                 query_rel_rank.append(i / float(count))
                 count = count + 1
-            TopicAvgPrecisionList.append(totPrecision / len(relavent_doc))
+            TopicAvgPrecisionList.append(totPrecision / len(relevant_doc))
 
     totavgPrec = 0
     for avgPrec in TopicAvgPrecisionList:
